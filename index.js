@@ -26,5 +26,5 @@ function greet(time){
 }
 
 function displayMessage(message) {
-  $('#greeting').html(message);
+  document.getElementById('greeting').innerHTML(message);
 }
