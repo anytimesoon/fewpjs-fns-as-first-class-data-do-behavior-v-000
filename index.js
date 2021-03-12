@@ -12,7 +12,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
 function greet(time){
-  var hours = Number(time.subString(1));
+  var hours = time;
   if (hours > 17){
     console.log('Good Evening');
     return "Good Evening";
