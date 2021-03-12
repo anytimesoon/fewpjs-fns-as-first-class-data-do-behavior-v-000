@@ -20,8 +20,8 @@ function greet(time){
     console.log("Good Morning");
     return "Good Morning";
   } else {
-    console.log("Good Afernoon");
-    return "Good Afernoon";   
+    console.log("Good Afternoon");
+    return "Good Afternoon";   
   }
 }
 
